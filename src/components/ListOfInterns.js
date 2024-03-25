@@ -28,6 +28,7 @@ function ListOfInterns({data}){
   <a href='#'>TASKS</a>
   <a href='#'>INTERNS</a>
   <a href='#'>FAQ</a>
+  
   </div>
   <input
         type="text"

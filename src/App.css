@@ -43,7 +43,7 @@
 
 .flex a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 0.8rem;
   color:#00246B;
   margin-right:20px;
   margin-top: 30px;
@@ -51,7 +51,7 @@
 
 .flex a:hover{
   text-decoration: underline;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #fff;
  
 }
@@ -151,14 +151,40 @@
  @media(max-width:740px){
 
 
+  .header{
+    font-size: 1.2rem;
+  }
+
+
   .top-bar{
     position: absolute;
-    top:30%;
-    left:15%;
-    width:70%;
+    top:20%;
+    left:5%;
+    width:90%;
    
     
     
+
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  
+  }
+
+  .flex a {
+    margin-bottom:15px;
+    font-size: 0.7rem;
+  }
+
+
+
+  .search-bar{
+    width:50%;
+    padding:10px;
 
   }
 
@@ -166,10 +192,25 @@
     position: absolute;
     top:42%;
     left:5%;
-    width:20%;
+    
+   
+    
    
     
    }
+
+   table tr th,
+ table tr td {
+
+  font-size: 0.5rem;
+  
+ }
+
+ .rank{
+  
+  font-size: 0.8rem;
+ 
+ }
 
  }
 
